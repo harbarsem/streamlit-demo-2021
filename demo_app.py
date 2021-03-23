@@ -9,5 +9,5 @@ This is a test.
 x = np.linspace(0, 10, 500)
 fig = plt.figure()
 plt.plot(x, np.sin(x))
-plt.ylim(-2, 2)
+plt.ylim(-2, 3)
 st.pyplot(fig)
